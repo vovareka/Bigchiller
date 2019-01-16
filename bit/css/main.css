@@ -1,0 +1,123 @@
+/*page main*/
+/*------------------------------------------------------------------
+0. basic settings
+1. header
+2. content
+2.1 new
+2.2 about_us
+2.3 we_do
+2.4 form
+3. footer
+4. responsive
+-------------------------------------------------------------------*/
+/*
+0. basic settings
+-------------------------------------------------------------------*/
+body{
+	font-family: 'Helvetica';
+    font-size: 14px;
+    color: #2f2f2f;
+    padding:0;
+    margin: 0;
+    background: #fff;
+}
+ul, li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+h1, h2,h3,h4,h5,p{
+	padding: 0px;
+	margin: 0px;
+}
+.clearfix:after{
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.container{
+	max-width: 1710px;
+	margin: 0 auto;
+	padding: 0px 20px;
+	overflow: hidden;
+}
+a, a:active,a:hover,
+button ,button:hover, button:active, button:focus,
+input:focus, input:active, textarea:focus, textarea:active {
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+}
+a, a:active,a:hover{
+	color: #fff;
+}
+.d_flex{
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+0. /basic settings
+-------------------------------------------------------------------*/
+/*
+1. header
+-------------------------------------------------------------------*/
+header{
+	background: url(../img/header_bg.png) no-repeat;
+	background-size: 100% auto;
+	width: 100%;
+}
+.menu_items{
+	float: right;
+	display: block;
+}
+.menu_item{
+	float: left;
+	margin: 0px 20px;
+}
+.menu_item a{
+	font-family: 'Helvetica';
+	font-weight: 700;
+}
+.banner{
+	height: -webkit-calc(100% - 130px);
+	height: -moz-calc(100% - 130px);
+	height: calc(100% - 130px);
+}
+.banner{
+	padding-top: 60px;
+}
+.menu{
+	justify-content: flex-end;
+    align-items: center;
+}
+.banner_img img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.navigation{
+	padding: 23px 0px;
+}
+.banner_item{
+	float: left;
+	width: 50%;
+}
+.header_title{
+	font-size: 46px;
+	font-weight: 700;
+	text-transform: uppercase;
+	max-width: 550px;
+	color: #fff;
+}
+.banner_content{
+	justify-content: center;
+	align-items: center;
+}
+/*
+1. /header
+-------------------------------------------------------------------*/
